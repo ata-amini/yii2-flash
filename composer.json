@@ -27,8 +27,7 @@
   "extra": {
     "bootstrap": "Wyno\\Flash\\Bootstrap",
     "branch-alias": {
-      "dev-master": "0.1"
-    }
-  },
-  "minimum-stability": "stable"
+		"dev-master": "0.1.x-dev"
+     }
+  }
 }
