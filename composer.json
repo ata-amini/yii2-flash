@@ -1,0 +1,21 @@
+{
+    "name": "soam/yii2-flash",
+    "description": "Yii2 flash message",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Ata amini",
+            "email": "ata.aminie@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Soam\\yii2\\flash\\": ""
+        }
+    }
+}
