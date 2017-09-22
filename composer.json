@@ -1,5 +1,5 @@
 {
-    "name": "soam/yii2-flash",
+    "name": "wyno/yii2-flash",
     "description": "Yii2 flash message",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Soam\\yii2\\flash\\": ""
+            "Wyno\\Flash\\": "src/Flash"
         }
     }
 }

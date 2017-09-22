@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist soam/yii2-flash "*"
+php composer.phar require --prefer-dist Wyno/yii2-flash "*"
 ```
 
 or add
 
 ```
-"soam/yii2-flash": "*"
+"wyno/yii2-flash": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \Soam\yii2\flash\AutoloadExample::widget(); ?>```
+<?= \Wyno\yii2\flash\AutoloadExample::widget(); ?>```
