@@ -1,21 +1,34 @@
 {
-    "name": "wyno/yii2-flash",
-    "description": "Yii2 flash message",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension"],
-    "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "Ata amini",
-            "email": "ata.aminie@gmail.com"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "Wyno\\Flash\\": "src/Flash"
-        }
+  "name": "wyno/yii2-flash",
+  "description": "Yii2 flash message",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ata amini",
+      "email": "ata.aminie@gmail.com"
     }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wyno\\Flash\\": "src/Flash"
+    },
+    "files": [
+      "src/helpers/flash.php"
+    ]
+  },
+  "extra": {
+    "bootstrap": "Wyno\\Flash\\Bootstrap",
+    "branch-alias": {
+      "dev-master": "0.1"
+    }
+  },
+  "minimum-stability": "stable"
 }
