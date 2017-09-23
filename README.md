@@ -21,6 +21,7 @@ Begin by pulling in the package through Composer
 >composer require wyno/yii2-flash "dev-master"
 
 
-##Usage
+**Usage**
 You may use helper to generate flash messages like this
+
 >flash()->success('Some message to notify');
