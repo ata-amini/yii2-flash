@@ -12,6 +12,6 @@
          */
         function flash()
         {
-            return Yii::$app->flash;
+            return \Yii::$container->get('Wyno\Flash\FlashNotifier');
         }
     }

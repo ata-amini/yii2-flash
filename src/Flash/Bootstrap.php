@@ -23,12 +23,7 @@
         {
             \Yii::$container->set('Wyno\Flash\contracts\FlashSessionStore', 'Wyno\Flash\Store');
 
-            // set as yii2 components
-            $componentId = 'flash';
-            if (!$app->has($componentId)) {
-                $app->set($componentId, [
-                    'class' => 'Wyno\Flash\FlashNotifier'
-                ]);
-            }
+            // set as singleton
+            \Yii::$container->setSingleton('Wyno\Flash\FlashNotifier');
         }
     }

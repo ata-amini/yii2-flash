@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Wyno\\Flash\\": "src/Flash"
+      "Wyno\\": "src/"
     },
     "files": [
       "src/helpers/flash.php"
@@ -27,7 +27,7 @@
   "extra": {
     "bootstrap": "Wyno\\Flash\\Bootstrap",
     "branch-alias": {
-		"dev-master": "0.1.x-dev"
-     }
+      "dev-master": "0.1.x-dev"
+    }
   }
 }
