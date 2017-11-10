@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Wyno\\": "src/"
+      "Wyno\\Flash\\": "src/"
     },
     "files": [
       "src/helpers/flash.php"
